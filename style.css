@@ -1,5 +1,5 @@
 /*##################### Default #########################*/
-nav, header {
+nav, header, footer {
     display: block;
 }
 
@@ -8,6 +8,16 @@ body{
     background: url(background.jfif);
     background-size: cover;
     margin: 0;
+}
+footer{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    font-size: 20px;
+    padding-top: 10px;
 }
 label{
     font-size: 35px;
@@ -25,7 +35,7 @@ article p h1{
 }
 .container{
     background-size: cover;
-    width: 100%;
+    width: 80%;
     margin: auto;
     padding-top: 2%;
     padding-bottom: 2%;
