@@ -175,7 +175,7 @@ div.rightSide-col{
 }
 
 /*###################### Mobile ############################*/
-@media screen and (max-width: 800px){
+@media only screen and (max-width: 650px){
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
