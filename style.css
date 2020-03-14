@@ -5,7 +5,8 @@ nav, header, footer {
 
 body{
     line-height: 1;
-    background: url(background.jfif);
+    background: url(background1.jpg);
+    background-attachment: fixed;
     background-size: cover;
     margin: 0;
 }
